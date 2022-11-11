@@ -34,7 +34,7 @@ class FriendScreen extends StatelessWidget {
                 (index) => ProfileCard(user: friends[index]),
               ),
             ),
-          )
+          ),
         ],
       ),
       appBar: AppBar(
