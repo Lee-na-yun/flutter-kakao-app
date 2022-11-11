@@ -1,4 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_kakao/screens/chat_screen.dart';
+import 'package:flutter_kakao/screens/friend_screen.dart';
+import 'package:flutter_kakao/screens/more_screen.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 
 class MainScreen extends StatefulWidget {
@@ -17,9 +20,9 @@ class _MainScreenState extends State<MainScreen> {
       body: IndexedStack(
         index: _selectedIndex,
         children: [
-          Center(child: Text("IndexStack 1")),
-          Center(child: Text("IndexStack 2")),
-          Center(child: Text("IndexStack 3")),
+          FriendScreen(),
+          ChatScreen(),
+          MoreScreen(),
         ],
       ),
       bottomNavigationBar: BottomNavigationBar(
