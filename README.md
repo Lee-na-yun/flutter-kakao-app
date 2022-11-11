@@ -1,6 +1,7 @@
 # flutter_kakao
 
-A new Flutter project.
+<img src="https://user-images.githubusercontent.com/112357296/201300337-4d9e4c5a-0746-4e93-9ab0-6ba3ddb014c0.gif">
+
 
 ## Getting Started
 
