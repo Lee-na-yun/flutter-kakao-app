@@ -13,7 +13,10 @@ class FriendScreen extends StatelessWidget {
         children: [
           const SizedBox(height: 10),
           ProfileCard(user: me),
-          Divider(),
+          Divider(
+            height: 1,
+            color: Colors.black12,
+          ),
           Padding(
             padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 10),
             child: Row(
